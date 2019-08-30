@@ -6,7 +6,7 @@
 
 OpenArkCompiler is an open source project from the Huawei Ark compiler.
 
-### OpenArkCompiler four technical points ###
+### OpenArkCompiler: Four technical points ###
 
 Efficient execution in the runtime environment by compiling different language code into a set of executables in the development environment:：
 - Support multi-language joint optimization and eliminate cross-language call overhead;
@@ -18,15 +18,18 @@ Efficient execution in the runtime environment by compiling different language c
 
 With the development of current terminal hardware, there is a trend toward the development of intelligent IoT diversity, gradually forming a hardware form with mobile phone as the center and multi-device interconnection; the development of hardware diversity brings the complexity of software architecture and programming framework, the upper layer Application and business software developers urgently need a set of compilation frameworks, which can realize multiple compilations of multiple programming languages, multi-device operation, and a good performance foundation. Based on the above hardware development trends and software ecological development requirements, the Ark compiler combines the industry's latest compiler frontier technology to create a multi-architecture programming language environment for software developers.
 
-## Open source plan ##
-** Opensource Compiler Framework **
+## Opensource plan ##
+
+**Opensource Compiler Framework**
+
 - Time: August 2019
 - Opensource scope: compiler IR + mid-range language implementation
 - Open ability:
    - Opensource Framework for reference learning, understand the Ark compiler architecture and framework code
    - Developers can build a complete compiler toolchain that supports Java Sample program compilation (non-application)
 
-** Follow-up opensource scope **
+**Follow-up opensource scope**
+
 Opensource compiler frontend, backend; support Java program compilation, JavaScript language application compilation.
 
 **Keep updating......**
