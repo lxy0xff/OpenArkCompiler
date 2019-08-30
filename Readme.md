@@ -1,53 +1,54 @@
 # OpenArkCompiler
 
-## 概述
+## Overview
 -----------------
-> 面向IoT、支持多语言多设备的新一代编译器。
+> A new generation of compilers for IoT that support multiple languages and multiple devices.
 
-OpenArkCompiler是来自华为方舟编译器的开源项目。
+OpenArkCompiler is an open source project from the Huawei Ark compiler.
 
-### OpenArkCompiler 四个技术点 ###
+### OpenArkCompiler four technical points ###
 
-通过将不同语言代码在开发环境中就编译成一套可执行文件，在运行环境中高效执行：
-- 支持多语言联合优化、消除跨语言调用开销；
-- 程序运行时无需依赖虚拟机，减少资源占用，具有高效内存回收机制；
-- 可针对不同应用灵活编译优化；
-- 开发者学习和使用成本低。
+Efficient execution in the runtime environment by compiling different language code into a set of executables in the development environment:：
+- Support multi-language joint optimization and eliminate cross-language call overhead;
+- The program does not need to rely on virtual machines when running, reducing resource consumption and having an efficient memory recovery mechanism;
+- Flexible compilation and optimization for different applications;
+- Developers have low learning and use costs.
 
-### 面向未来的智能硬件生态 ###
-当前终端硬件的发展，有向智能IoT多样性发展的趋势，逐步形成以手机为中心，多设备互联互通的硬件形态；硬件多样性的发展，同时带来软件架构、编程框架的复杂性，上层应用及业务软件开发人员，急需一套编译框架，能够实现多种编程语言一次编译、多设备运行，并且具有良好的性能基础。方舟编译器基于上述硬件发展趋势、软件生态发展诉求，结合业界最新的编译器前沿技术，为软件开发人员打造多架构编程语言环境。
+### Future-oriented intelligent hardware ecosystem ###
 
-## 开源计划
-**编译框架代码开源**
-- 时间：2019年8月 
-- 开源范围：编译器IR+中端语言实现
-- 开放能力：
-   - 框架开源供参考学习，了解方舟编译器架构及框架代码
-   - 开发者可构建出完整编译器工具链，支持Java Sample程序编译（非应用）
+With the development of current terminal hardware, there is a trend toward the development of intelligent IoT diversity, gradually forming a hardware form with mobile phone as the center and multi-device interconnection; the development of hardware diversity brings the complexity of software architecture and programming framework, the upper layer Application and business software developers urgently need a set of compilation frameworks, which can realize multiple compilations of multiple programming languages, multi-device operation, and a good performance foundation. Based on the above hardware development trends and software ecological development requirements, the Ark compiler combines the industry's latest compiler frontier technology to create a multi-architecture programming language environment for software developers.
 
-**后续开源范围**
-陆续开源编译器前端、后端； 支持Java程序编译、JavaScript语言应用的编译等。
+## Open source plan ##
+** Opensource Compiler Framework **
+- Time: August 2019
+- Opensource scope: compiler IR + mid-range language implementation
+- Open ability:
+   - Opensource Framework for reference learning, understand the Ark compiler architecture and framework code
+   - Developers can build a complete compiler toolchain that supports Java Sample program compilation (non-application)
 
-**计划持续更新...**
+** Follow-up opensource scope **
+Opensource compiler frontend, backend; support Java program compilation, JavaScript language application compilation.
 
-## 相关文档
+**Keep updating......**
 
-- 架构设计原理
+## References
+
+- Architecture design principle
    - [MAPLE IR Design](doc/MapleIRDesign.md)
    - [RC API](doc/RC_API.md)
-   - [朴素版RC操作插入原理](doc/Naive_RC_Principle.md)
-   - [虚函数表和接口函数表设计介绍](doc/Vtable&Itable.md)
-   - [Phase设计介绍](doc/Phase_Design.md)
+   - [Simple version of RC operation insertion principle](doc/Naive_RC_Principle.md)
+   - [Virtual function table and interface function table design introduction](doc/Vtable&Itable.md)
+   - [Phase design introduction](doc/Phase_Design.md)
 
-- [环境配置](doc/Development_Preparation.md)
+- [Environment](doc/Development_Preparation.md)
 
-- [开发者指南](doc/Developer_Guide.md)
+- [Developer Guide](doc/Developer_Guide.md)
 
-- [编程规范](doc/Programming_Specifications.md)
+- [Programming Specifications](doc/Programming_Specifications.md)
 
-
-
-## 许可证
+## LICENSE
 - [LICENSE](license/LICENSE)
-- [开源软件声明](license/Third_Party_Open_Source_Software_Notice.md)
+- [Opensource software statement](license/Third_Party_Open_Source_Software_Notice.md)
+
+Tranlated By Robot "airhead"
 
